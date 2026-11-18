@@ -133,16 +133,16 @@ li + li { margin-top: 0.35em; }
   transition: background-color 0.25s, border-color 0.25s, color 0.25s;
 }
 @media (prefers-reduced-motion: reduce) { .site-header, .site-header * { transition: none !important; } }
-/* at the top of the page the header floats over the dark hero / page head */
-.site-header.at-top:not(:has(.nav-mobile[open])) {
+/* default: header floats transparent over the dark hero / page head; JS adds .scrolled once the page moves */
+.site-header:not(.scrolled):not(:has(.nav-mobile[open])) {
   background: linear-gradient(rgb(21 26 74 / 0.55), transparent);
   border-bottom-color: transparent;
   backdrop-filter: none;
 }
-.site-header.at-top:not(:has(.nav-mobile[open])) :is(.brand, .nav-desktop a, .nav-mobile summary) { color: #fff; }
-.site-header.at-top:not(:has(.nav-mobile[open])) .brand-name span { color: rgb(255 255 255 / 0.78); }
-.site-header.at-top:not(:has(.nav-mobile[open])) .nav-desktop a:hover { background: rgb(255 255 255 / 0.14); }
-.site-header.at-top:not(:has(.nav-mobile[open])) .nav-mobile summary { border-color: rgb(255 255 255 / 0.5); }
+.site-header:not(.scrolled):not(:has(.nav-mobile[open])) :is(.brand, .nav-desktop a, .nav-mobile summary) { color: #fff; }
+.site-header:not(.scrolled):not(:has(.nav-mobile[open])) .brand-name span { color: rgb(255 255 255 / 0.78); }
+.site-header:not(.scrolled):not(:has(.nav-mobile[open])) .nav-desktop a:hover { background: rgb(255 255 255 / 0.14); }
+.site-header:not(.scrolled):not(:has(.nav-mobile[open])) .nav-mobile summary { border-color: rgb(255 255 255 / 0.5); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: var(--header-h); }
 .brand { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; color: var(--ink); }
 .brand img { width: 44px; height: auto; }

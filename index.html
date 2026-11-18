@@ -46,7 +46,7 @@
     </details>
   </div>
 </header>
-<script>{const h=document.querySelector(".site-header"),t=()=>h.classList.toggle("at-top",scrollY<16);t();addEventListener("scroll",t,{passive:true})}</script>
+<script>{const h=document.querySelector(".site-header"),t=()=>h.classList.toggle("scrolled",scrollY>=16);t();addEventListener("scroll",t,{passive:true})}</script>
 <main id="main">
 <section class="hero" aria-labelledby="hero-title">
   <img src="images/activities/supporting-community-children-2.webp" alt="Children holding certificates with RVTI volunteers at a community learning event" width="1152" height="864" fetchpriority="high" decoding="async">

@@ -46,7 +46,7 @@
     </details>
   </div>
 </header>
-<script>{const h=document.querySelector(".site-header"),t=()=>h.classList.toggle("at-top",scrollY<16);t();addEventListener("scroll",t,{passive:true})}</script>
+<script>{const h=document.querySelector(".site-header"),t=()=>h.classList.toggle("scrolled",scrollY>=16);t();addEventListener("scroll",t,{passive:true})}</script>
 <main id="main">
 <div class="page-head">
   <div class="wrap">

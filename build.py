@@ -147,7 +147,7 @@ def header(cur):
     </details>
   </div>
 </header>
-<script>{{const h=document.querySelector(".site-header"),t=()=>h.classList.toggle("at-top",scrollY<16);t();addEventListener("scroll",t,{{passive:true}})}}</script>"""
+<script>{{const h=document.querySelector(".site-header"),t=()=>h.classList.toggle("scrolled",scrollY>=16);t();addEventListener("scroll",t,{{passive:true}})}}</script>"""
 
 def partner_band():
     collab = "We welcome partnerships with organizations and institutions that share our vision of enhancing education, healthcare, and resource governance. By working together, we can achieve greater impact and drive meaningful change in the communities we serve."
