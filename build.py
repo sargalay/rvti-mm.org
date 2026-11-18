@@ -415,22 +415,21 @@ page("activities.html", "Activities and Photos – Youth Talks, Community Work |
                 "image": [f"{SITE}/{rel(p)}" for a in activities for p in a["images"]]}], cur="activities.html")
 
 # ================= TEAM =================
-members = "".join(f"""<article class="member" id="{m['id']}">
+members = "".join(f"""<li class="member" id="{m['id']}">
   <div class="photo">{photo(m)}</div>
-  <div class="measure">
-    <h2>{e(m['name'])}</h2>
-    <p class="role">{e(m['position'])}</p>
-    {f'<p class="note">{e(m["note"])}</p>' if m.get('note') else ''}
-    {''.join(f'<p>{e(p)}</p>' for p in m['bio'])}
-  </div>
-</article>""" for m in team)
+  <h2>{e(m['name'])}</h2>
+  <p class="role">{e(m['position'])}</p>
+  {f'<p class="note">{e(m["note"])}</p>' if m.get('note') else ''}
+  {f'<p class="summary">{e(m["summary"])}</p>' if m['summary'] else ''}
+  {f'<details><summary><span class="closed-label">Read full bio</span><span class="open-label">Hide bio</span><span class="visually-hidden"> of {e(m["name"])}</span></summary><div class="bio">{"".join(f"<p>{e(p)}</p>" for p in m["bio"])}</div></details>' if m['bio'] else ''}
+</li>""" for m in team)
 person = lambda m: {"@type": "Person", "@id": f"{SITE}/team.html#{m['id']}", "name": m["name"], "jobTitle": m["position"],
                     "worksFor": {"@id": ORG_ID}, **({"image": f"{SITE}/{rel(m['image'])}"} if m["image"] else {}),
-                    **({"description": m["bio"][0]} if m["bio"] else {})}
+                    **({"description": m["summary"]} if m["summary"] else {})}
 page("team.html", "Our Team – RVTI Staff and Volunteers | Myanmar NGO",
      "Meet the RVTI team: Director Aung Aung Naing and the staff and volunteers working on education, health and resource governance in Rakhine and beyond.",
      f"""{page_head('Team', 'team.html', 'Our team', 'Staff and volunteers from Rakhine and Yangon, many of them long-time members of Renaissance Language Campus.')}
-<section class="section"><div class="wrap">{members}</div></section>
+<section class="section"><div class="wrap"><ul class="team-grid">{members}</ul></div></section>
 {partner_band()}""", ld=[crumbs_ld("Team", "team.html"), *[person(m) for m in team]], cur="team.html")
 
 # ================= GOVERNANCE =================

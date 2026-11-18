@@ -249,14 +249,31 @@ li + li { margin-top: 0.35em; }
   font-family: var(--font-display); font-size: var(--step-3); font-weight: 700; border: 1px solid var(--line);
 }
 
-.member { display: grid; gap: var(--space-m); padding-block: var(--space-l); border-top: 1px solid var(--line); }
-.member:first-of-type { border-top: 0; }
-@media (min-width: 760px) { .member { grid-template-columns: 12rem 1fr; } }
-.member .photo { width: 12rem; max-width: 60vw; }
+.team-grid {
+  list-style: none; padding: 0; margin: 0;
+  display: grid; gap: var(--space-l) var(--space-m); grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+.member { margin: 0; display: grid; align-content: start; }
+.member .photo { margin-bottom: 1rem; }
 .member .photo img, .member .photo .initials { width: 100%; border-radius: var(--radius); aspect-ratio: 4/5; object-position: top; }
-.member h2 { font-size: var(--step-3); margin-bottom: 0.15em; }
-.member .role { color: var(--red); font-weight: 650; margin-bottom: 1rem; }
-.member .note { color: var(--muted); }
+.member h2 { font-size: var(--step-2); margin-bottom: 0.1em; }
+.member .role { color: var(--red); font-weight: 650; margin-bottom: 0.6rem; }
+.member .note, .member .summary { color: var(--muted); font-size: 0.98rem; margin-bottom: 0.6rem; }
+.member summary { cursor: pointer; color: var(--blue); font-weight: 600; width: fit-content; }
+.member .bio { margin-top: 1rem; max-width: var(--measure); }
+/* an opened bio takes the whole row: photo left, text right */
+.member:has(details[open]) { grid-column: 1 / -1; background: var(--mist); padding: var(--space-m); border-radius: var(--radius); }
+.member:has(details[open]) .summary { display: none; }
+@media (min-width: 760px) {
+  .member:has(details[open]) { grid-template-columns: 14rem 1fr; column-gap: var(--space-l); }
+  .member:has(details[open]) .photo { grid-row: 1 / span 5; margin: 0; }
+  .member:has(details[open]) > :not(.photo) { grid-column: 2; }
+}
+.member .open-label, .member details[open] .closed-label { display: none; }
+.member details[open] .open-label { display: inline; }
+@media (min-width: 760px) {
+}
 
 /* ---------- Partner band ---------- */
 .partner { background: var(--yellow); padding-block: var(--space-l); }
