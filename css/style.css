@@ -272,8 +272,6 @@ li + li { margin-top: 0.35em; }
 }
 .member .open-label, .member details[open] .closed-label { display: none; }
 .member details[open] .open-label { display: inline; }
-@media (min-width: 760px) {
-}
 
 /* ---------- Partner band ---------- */
 .partner { background: var(--yellow); padding-block: var(--space-l); }
