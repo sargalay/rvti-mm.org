@@ -146,7 +146,8 @@ def header(cur):
       <nav aria-label="Main (mobile)"><ul>{links}</ul></nav>
     </details>
   </div>
-</header>"""
+</header>
+<script>{{const h=document.querySelector(".site-header"),t=()=>h.classList.toggle("at-top",scrollY<16);t();addEventListener("scroll",t,{{passive:true}})}}</script>"""
 
 def partner_band():
     collab = "We welcome partnerships with organizations and institutions that share our vision of enhancing education, healthcare, and resource governance. By working together, we can achieve greater impact and drive meaningful change in the communities we serve."
