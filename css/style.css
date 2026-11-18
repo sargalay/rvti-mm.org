@@ -422,7 +422,11 @@ body:has(dialog[open]) { overflow: hidden; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li + li { margin-top: 0.4rem; }
 .site-footer address { font-style: normal; margin-bottom: 0.9rem; }
-.footer-bottom { border-top: 1px solid rgb(255 255 255 / 0.15); padding-top: var(--space-s); font-size: var(--step--1); color: rgb(255 255 255 / 0.65); }
+.footer-bottom {
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 1.5rem;
+  border-top: 1px solid rgb(255 255 255 / 0.15); padding-top: var(--space-s); font-size: var(--step--1); color: rgb(255 255 255 / 0.65);
+}
+.footer-bottom p { margin: 0; }
 
 /* main content that precedes the folded footer needs room for the fold */
 main { padding-bottom: var(--fold); }

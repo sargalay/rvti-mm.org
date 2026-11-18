@@ -183,7 +183,10 @@ def footer():
         <li><a href="tel:{tel(main_office['phone'])}">{main_office['phone']}</a></li>
       </ul></div>
     </div>
-    <p class="footer-bottom">© 2026 {e(site['name'])} (RVTI). Founded as {e(site['formerName'])} in {site['founded']['year']}.</p>
+    <div class="footer-bottom">
+      <p>© 2026 {e(site['name'])} (RVTI). Founded as {e(site['formerName'])} in {site['founded']['year']}.</p>
+      <p>Website by <a href="https://www.heinsoe.com" rel="noopener">heinsoe.com</a></p>
+    </div>
   </div>
 </footer>"""
 
