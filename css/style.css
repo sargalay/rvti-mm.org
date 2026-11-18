@@ -127,16 +127,14 @@ li + li { margin-top: 0.35em; }
   position: fixed; top: 0; left: 0; right: 0; z-index: 30;
   background: rgb(255 255 255 / 0.96);
   backdrop-filter: saturate(1.4) blur(8px);
-  border-bottom: 1px solid var(--line);
 }
 .site-header, .site-header .brand, .site-header .nav-desktop a, .site-header .brand-name span, .nav-mobile summary {
-  transition: background-color 0.25s, border-color 0.25s, color 0.25s;
+  transition: background-color 0.25s, color 0.25s;
 }
 @media (prefers-reduced-motion: reduce) { .site-header, .site-header * { transition: none !important; } }
 /* default: header floats transparent over the dark hero / page head; JS adds .scrolled once the page moves */
 .site-header:not(.scrolled):not(:has(.nav-mobile[open])) {
   background: linear-gradient(rgb(21 26 74 / 0.55), transparent);
-  border-bottom-color: transparent;
   backdrop-filter: none;
 }
 .site-header:not(.scrolled):not(:has(.nav-mobile[open])) :is(.brand, .nav-desktop a, .nav-mobile summary) { color: #fff; }
