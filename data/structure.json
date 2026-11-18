@@ -5,8 +5,8 @@
     "note": "3 members",
     "children": [
       {
-        "id": "executive-director",
-        "title": "Executive Director",
+        "id": "director",
+        "title": "Director",
         "children": [
           { "id": "budget-finance-team", "title": "Budget & Finance Team", "children": [] },
           { "id": "operation-team", "title": "Operation Team", "children": [] },
@@ -17,8 +17,8 @@
   },
   "positions": [
     {
-      "id": "executive-director",
-      "title": "Executive Director",
+      "id": "director",
+      "title": "Director",
       "description": "Provides overall leadership and strategic direction, and oversees the organization's operations."
     },
     {

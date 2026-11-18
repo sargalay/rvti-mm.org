@@ -80,7 +80,7 @@ RVTI's Procurement Policy is designed to ensure transparency, accountability, an
 
 ## Financial Policy
 
-Financial security is our utmost priority. We maintain a zero-tolerance policy regarding financial misappropriation. All financial activities must be approved by both the patrons and the Executive Director before execution. Any activity involving financial support must have documented evidence in accordance with our guidelines.
+Financial security is our utmost priority. We maintain a zero-tolerance policy regarding financial misappropriation. All financial activities must be approved by both the patrons and the Director before execution. Any activity involving financial support must have documented evidence in accordance with our guidelines.
 
 ## Use of Office Property Policy
 

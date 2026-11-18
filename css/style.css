@@ -187,7 +187,6 @@ li + li { margin-top: 0.35em; }
     linear-gradient(0deg, rgb(21 26 74 / 0.55), transparent 50%);
 }
 .hero h1 { max-width: 16ch; margin-bottom: 0.35em; }
-.hero-my { font-size: var(--step-1); margin: 0 0 0.25rem; max-width: 34ch; color: #fff; }
 .hero-tagline { font-size: var(--step-1); color: rgb(255 255 255 / 0.85); max-width: 40ch; margin-bottom: 1.75rem; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
 

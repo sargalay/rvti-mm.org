@@ -107,7 +107,7 @@ main_office = next(o for o in contact["offices"] if o["main"])
 def org_ld():
     return {
         "@type": "NGO", "@id": ORG_ID, "name": site["name"],
-        "alternateName": [site["shortName"], site["nameMyanmar"], site["formerName"]],
+        "alternateName": [site["shortName"], site["formerName"]],
         "url": SITE + "/", "logo": f"{SITE}/images/logo.png", "image": OG_IMAGE,
         "description": site["mission"], "slogan": site["tagline"],
         "foundingDate": str(site["founded"]["year"]),
@@ -173,7 +173,6 @@ def footer():
       <div class="footer-brand">
         <img src="images/logo-160.png" alt="RVTI logo" width="160" height="155" loading="lazy">
         <strong>{e(site['name'])}</strong>
-        <p lang="my">{e(site['nameMyanmar'])}</p>
         <p>{e(site['tagline'])}</p>
       </div>
       <div><h2>Offices</h2>{offices}</div>
@@ -262,7 +261,6 @@ regions = [("Rakhine State", "Our home state and main focus. Founded in Sittway;
 home = f"""<section class="hero" aria-labelledby="hero-title">
   {img(site['heroImage'], 'Children holding certificates with RVTI volunteers at a community learning event', lazy=False)}
   <div class="wrap">
-    <p class="hero-my" lang="my">{e(site['nameMyanmar'])}</p>
     <h1 id="hero-title">Learning, health and fair use of resources for Myanmar's coastal communities</h1>
     <p class="hero-tagline">{e(site['tagline'])}.</p>
     <div class="hero-actions">
@@ -430,7 +428,7 @@ person = lambda m: {"@type": "Person", "@id": f"{SITE}/team.html#{m['id']}", "na
                     "worksFor": {"@id": ORG_ID}, **({"image": f"{SITE}/{rel(m['image'])}"} if m["image"] else {}),
                     **({"description": m["bio"][0]} if m["bio"] else {})}
 page("team.html", "Our Team – RVTI Staff and Volunteers | Myanmar NGO",
-     "Meet the RVTI team: Executive Director Aung Aung Naing and the staff and volunteers working on education, health and resource governance in Rakhine and beyond.",
+     "Meet the RVTI team: Director Aung Aung Naing and the staff and volunteers working on education, health and resource governance in Rakhine and beyond.",
      f"""{page_head('Team', 'team.html', 'Our team', 'Staff and volunteers from Rakhine and Yangon, many of them long-time members of Renaissance Language Campus.')}
 <section class="section"><div class="wrap">{members}</div></section>
 {partner_band()}""", ld=[crumbs_ld("Team", "team.html"), *[person(m) for m in team]], cur="team.html")
@@ -438,7 +436,7 @@ page("team.html", "Our Team – RVTI Staff and Volunteers | Myanmar NGO",
 # ================= GOVERNANCE =================
 meta, body, _ = page_md("governance")
 o = structure["organogram"]; ed = o["children"][0]
-chart = f"""<div class="orgchart" role="img" aria-label="Organogram: Board of Patrons, then Executive Director, then Budget and Finance Team, Operation Team and Program Team">
+chart = f"""<div class="orgchart" role="img" aria-label="Organogram: Board of Patrons, then Director, then Budget and Finance Team, Operation Team and Program Team">
   <div class="node top">{e(o['title'])}<small>{e(o['note'])}</small></div><div class="stem"></div>
   <div class="node mid">{e(ed['title'])}</div><div class="stem"></div>
   <div class="row">{''.join(f'<div class="node">{e(c["title"])}</div>' for c in ed['children'])}</div>

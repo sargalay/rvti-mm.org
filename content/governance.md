@@ -18,6 +18,6 @@ Members of RVTI — especially the Board of Patrons (BOP) and the Management Tea
 3. **Budget & work plan** — Spending is planned against an approved budget and work plan.
 4. **Three signatures** — Every withdrawal requires the signatures of three guarantors.
 5. **Finance Team** — Withdrawn cash goes to the Finance Team.
-6. **Programme Team** — Funds are released to the Programme Team according to the budget approved by the Executive Director.
+6. **Programme Team** — Funds are released to the Programme Team according to the budget approved by the Director.
 7. **Reporting** — The Management Team reports to Monitoring & Evaluation.
 8. **Board of Patrons** — The BOP signs, receives reports and provides guidelines.
