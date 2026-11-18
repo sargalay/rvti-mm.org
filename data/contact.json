@@ -1,17 +1,17 @@
 {
-  "email": "Renaissancers4you@gmail.com",
+  "email": "info.rvti.together@gmail.com",
   "focalPerson": {
     "name": "Kyaw Htet Khine",
     "role": "Community Outreach Coordinator",
     "phone": "09891250471",
-    "email": "Renaissancers4you@gmail.com"
+    "email": "info.rvti.together@gmail.com"
   },
   "primaryContacts": [
     {
       "name": "Aung Aung Naing",
       "role": "Director",
       "phone": "09448041603",
-      "emails": ["eurakaan007@gmail.com", "Renaissancers4you@gmail.com"]
+      "emails": ["eurakaan007@gmail.com", "info.rvti.together@gmail.com"]
     },
     {
       "name": "Aye Yin",
@@ -36,22 +36,15 @@
     {
       "id": "yangon",
       "name": "Yangon Office",
-      "address": "1297 Zerdigone Street, Mittanyunt Ward, Tarmwe Township, Yangon",
+      "address": "20-A Yamuna Main Road, Patheinmyae Ward, Dawbon, Yangon",
       "phone": "09448041603",
       "main": true
     },
     {
       "id": "sittway",
       "name": "Sittway Office",
-      "address": "155 Minbargyi Road, Kyaungdalann Ward, Sittway",
+      "address": "155 Minbergyi Road, Kyaungdalann Ward, Sittway, Rakhine State",
       "phone": "043 21992",
-      "main": false
-    },
-    {
-      "id": "ponnagyun",
-      "name": "Ponnagyun Office",
-      "address": "Yangon-Sittway Highway Road, in front of Township GAD Office, Ponnagyun",
-      "phone": "09756568172",
       "main": false
     }
   ]

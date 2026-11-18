@@ -114,8 +114,8 @@ def org_ld():
         "foundingLocation": {"@type": "Place", "name": site["founded"]["place"] + ", Myanmar"},
         "email": contact["email"], "telephone": tel(main_office["phone"]),
         "nonprofitStatus": "Nonprofit", "knowsAbout": site["sectors"],
-        "address": {"@type": "PostalAddress", "streetAddress": "1297 Zerdigone Street, Mittanyunt Ward",
-                    "addressLocality": "Tarmwe Township", "addressRegion": "Yangon", "addressCountry": "MM"},
+        "address": {"@type": "PostalAddress", "streetAddress": "20-A Yamuna Main Road, Patheinmyae Ward",
+                    "addressLocality": "Dawbon Township", "addressRegion": "Yangon", "addressCountry": "MM"},
         "areaServed": [{"@type": "AdministrativeArea", "name": n} for n in
                        ["Rakhine State, Myanmar", "Ayeyarwady Region, Myanmar", "Tanintharyi Region, Myanmar"]],
         "location": [{"@type": "Place", "name": f"RVTI {o['name']}", "telephone": tel(o["phone"]),
@@ -255,7 +255,7 @@ def photo(m, cls=""):
 
 # ================= HOME =================
 fa = programs["focusAreas"]
-regions = [("Rakhine State", "Our home state and main focus. Founded in Sittway; offices in Sittway and Ponnagyun."),
+regions = [("Rakhine State", "Our home state and main focus. Founded in Sittway, where we have an office."),
            ("Ayeyarwady Region", "Myanmar's rice-growing delta, where fishers and smallholders face conflicts over resource access."),
            ("Tanintharyi Region", "The southernmost coast and the Mergui Archipelago, rich in fisheries and forests.")]
 home = f"""<section class="hero" aria-labelledby="hero-title">
@@ -478,8 +478,8 @@ fp = contact["focalPerson"]
 tones = ["red", "yellow", "blue"]
 offices = "".join(f"""<div class="office tone-{tones[i]}" style="--tone: var(--{tones[i]})"><h3>{e(o['name'])}</h3><address>{e(o['address'])}</address><a href="tel:{tel(o['phone'])}">{e(o['phone'])}</a></div>""" for i, o in enumerate(contact["offices"]))
 people = "".join(f"""<li><strong>{e(c['name'])}</strong> <span>{e(c['role'])}</span><br><a href="tel:{tel(c['phone'])}">{e(c['phone'])}</a>{''.join(f' · <a href="mailto:{m}">{m}</a>' for m in c['emails'])}</li>""" for c in contact["primaryContacts"])
-page("contact.html", "Contact RVTI – Offices in Yangon, Sittway and Ponnagyun",
-     "Contact the Renaissance Visionary Thriving Initiative. Email Renaissancers4you@gmail.com or visit our offices in Yangon, Sittway and Ponnagyun, Myanmar.",
+page("contact.html", "Contact RVTI – Offices in Yangon and Sittway, Myanmar",
+     f"Contact the Renaissance Visionary Thriving Initiative. Email {contact['email']} or visit our offices in Yangon and Sittway, Myanmar.",
      f"""{page_head('Contact', 'contact.html', 'Contact us', 'Questions, partnerships or volunteering: write to us or call one of our offices.')}
 <section class="section"><div class="wrap split">
   <div class="focal">
