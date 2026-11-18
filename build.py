@@ -421,7 +421,15 @@ members = "".join(f"""<li class="member" id="{m['id']}">
   <p class="role">{e(m['position'])}</p>
   {f'<p class="note">{e(m["note"])}</p>' if m.get('note') else ''}
   {f'<p class="summary">{e(m["summary"])}</p>' if m['summary'] else ''}
-  {f'<details><summary><span class="closed-label">Read full bio</span><span class="open-label">Hide bio</span><span class="visually-hidden"> of {e(m["name"])}</span></summary><div class="bio">{"".join(f"<p>{e(p)}</p>" for p in m["bio"])}</div></details>' if m['bio'] else ''}
+  {f'''<button class="bio-btn" type="button" commandfor="bio-{m['id']}" command="show-modal">Read full bio<span class="visually-hidden"> of {e(m["name"])}</span></button>
+  <dialog class="bio-modal" id="bio-{m['id']}" aria-labelledby="bio-{m['id']}-title" closedby="any">
+    <header>
+      {img(m['image'], m['name']) if m['image'] else ''}
+      <div><h2 id="bio-{m['id']}-title">{e(m['name'])}</h2><p class="role">{e(m['position'])}</p></div>
+      <button class="close" type="button" commandfor="bio-{m['id']}" command="close" aria-label="Close">×</button>
+    </header>
+    <div class="bio">{"".join(f"<p>{e(p)}</p>" for p in m["bio"])}</div>
+  </dialog>''' if m['bio'] else ''}
 </li>""" for m in team)
 person = lambda m: {"@type": "Person", "@id": f"{SITE}/team.html#{m['id']}", "name": m["name"], "jobTitle": m["position"],
                     "worksFor": {"@id": ORG_ID}, **({"image": f"{SITE}/{rel(m['image'])}"} if m["image"] else {}),
@@ -430,6 +438,12 @@ page("team.html", "Our Team – RVTI Staff and Volunteers | Myanmar NGO",
      "Meet the RVTI team: Director Aung Aung Naing and the staff and volunteers working on education, health and resource governance in Rakhine and beyond.",
      f"""{page_head('Team', 'team.html', 'Our team', 'Staff and volunteers from Rakhine and Yangon, many of them long-time members of Renaissance Language Campus.')}
 <section class="section"><div class="wrap"><ul class="team-grid">{members}</ul></div></section>
+<script>
+/* fallback for browsers without command/commandfor and closedby support */
+if (!("command" in HTMLButtonElement.prototype)) document.querySelectorAll("[commandfor]").forEach(b => b.addEventListener("click", () => {{
+  const d = document.getElementById(b.getAttribute("commandfor")); b.getAttribute("command") === "close" ? d.close() : d.showModal(); }}));
+document.querySelectorAll("dialog[closedby]").forEach(d => d.addEventListener("click", ev => {{ if (ev.target === d) d.close(); }}));
+</script>
 {partner_band()}""", ld=[crumbs_ld("Team", "team.html"), *[person(m) for m in team]], cur="team.html")
 
 # ================= GOVERNANCE =================

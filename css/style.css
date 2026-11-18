@@ -260,18 +260,35 @@ li + li { margin-top: 0.35em; }
 .member h2 { font-size: var(--step-2); margin-bottom: 0.1em; }
 .member .role { color: var(--red); font-weight: 650; margin-bottom: 0.6rem; }
 .member .note, .member .summary { color: var(--muted); font-size: 0.98rem; margin-bottom: 0.6rem; }
-.member summary { cursor: pointer; color: var(--blue); font-weight: 600; width: fit-content; }
-.member .bio { margin-top: 1rem; max-width: var(--measure); }
-/* an opened bio takes the whole row: photo left, text right */
-.member:has(details[open]) { grid-column: 1 / -1; background: var(--mist); padding: var(--space-m); border-radius: var(--radius); }
-.member:has(details[open]) .summary { display: none; }
-@media (min-width: 760px) {
-  .member:has(details[open]) { grid-template-columns: 14rem 1fr; column-gap: var(--space-l); }
-  .member:has(details[open]) .photo { grid-row: 1 / span 5; margin: 0; }
-  .member:has(details[open]) > :not(.photo) { grid-column: 2; }
+.bio-btn {
+  font: inherit; font-weight: 600; color: var(--blue); background: none; border: 0; padding: 0;
+  cursor: pointer; width: fit-content; text-decoration: underline; text-underline-offset: 0.2em;
 }
-.member .open-label, .member details[open] .closed-label { display: none; }
-.member details[open] .open-label { display: inline; }
+.bio-btn:hover { text-decoration-thickness: 2px; }
+
+/* ---------- Bio modal ---------- */
+.bio-modal {
+  width: min(46rem, 100% - 2rem); max-height: min(88vh, 52rem);
+  padding: 0; border: 0; border-radius: var(--radius); color: var(--ink);
+  box-shadow: 0 24px 64px rgb(21 26 74 / 0.3);
+}
+.bio-modal::backdrop { background: rgb(21 26 74 / 0.6); }
+.bio-modal header {
+  position: sticky; top: 0; z-index: 1; display: flex; align-items: center; gap: var(--space-m);
+  background: var(--mist); padding: var(--space-m); border-bottom: 1px solid var(--line);
+}
+.bio-modal header img { width: 5.5rem; aspect-ratio: 1; border-radius: 50%; object-position: top; flex: none; }
+.bio-modal h2 { font-size: var(--step-2); margin: 0; }
+.bio-modal .role { color: var(--red); font-weight: 650; margin: 0.2rem 0 0; }
+.bio-modal .close {
+  margin-left: auto; align-self: start; flex: none; width: 2.5rem; height: 2.5rem;
+  border: 1px solid var(--line); border-radius: 50%; background: var(--paper);
+  font-size: 1.4rem; line-height: 1; color: var(--ink); cursor: pointer;
+}
+.bio-modal .close:hover { border-color: var(--ink); }
+.bio-modal .bio { padding: var(--space-m); }
+.bio-modal .bio p:last-child { margin-bottom: 0; }
+body:has(dialog[open]) { overflow: hidden; }
 
 /* ---------- Partner band ---------- */
 .partner { background: var(--yellow); padding-block: var(--space-l); }
