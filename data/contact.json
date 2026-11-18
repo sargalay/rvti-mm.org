@@ -1,0 +1,58 @@
+{
+  "email": "Renaissancers4you@gmail.com",
+  "focalPerson": {
+    "name": "Kyaw Htet Khine",
+    "role": "Community Outreach Coordinator",
+    "phone": "09891250471",
+    "email": "Renaissancers4you@gmail.com"
+  },
+  "primaryContacts": [
+    {
+      "name": "Aung Aung Naing",
+      "role": "Executive Director",
+      "phone": "09448041603",
+      "emails": ["eurakaan007@gmail.com", "Renaissancers4you@gmail.com"]
+    },
+    {
+      "name": "Aye Yin",
+      "role": "Non-incentive Volunteer",
+      "phone": "09421768254",
+      "emails": ["maungaye.mba@gmail.com"]
+    },
+    {
+      "name": "Thu Zar Htway",
+      "role": "Finance Officer",
+      "phone": "09447049700",
+      "emails": ["thuzar1371984@gmail.com"]
+    },
+    {
+      "name": "Kyaw Htet Khine",
+      "role": "Community Outreach Coordinator",
+      "phone": "09891250471",
+      "emails": ["Nyinyi1198116@gmail.com"]
+    }
+  ],
+  "offices": [
+    {
+      "id": "yangon",
+      "name": "Yangon Office",
+      "address": "1297 Zerdigone Street, Mittanyunt Ward, Tarmwe Township, Yangon",
+      "phone": "09448041603",
+      "main": true
+    },
+    {
+      "id": "sittway",
+      "name": "Sittway Office",
+      "address": "155 Minbargyi Road, Kyaungdalann Ward, Sittway",
+      "phone": "043 21992",
+      "main": false
+    },
+    {
+      "id": "ponnagyun",
+      "name": "Ponnagyun Office",
+      "address": "Yangon-Sittway Highway Road, in front of Township GAD Office, Ponnagyun",
+      "phone": "09756568172",
+      "main": false
+    }
+  ]
+}

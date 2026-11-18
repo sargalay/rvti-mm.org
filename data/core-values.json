@@ -1,0 +1,27 @@
+[
+  {
+    "id": "innovation",
+    "title": "Innovation",
+    "description": "Encouraging creative solutions and forward-thinking approaches."
+  },
+  {
+    "id": "visionary-leadership",
+    "title": "Visionary Leadership",
+    "description": "Cultivating leaders who inspire and drive positive change."
+  },
+  {
+    "id": "community-engagement",
+    "title": "Community Engagement",
+    "description": "Building strong, collaborative partnerships within communities."
+  },
+  {
+    "id": "sustainability",
+    "title": "Sustainability",
+    "description": "Promoting practices that ensure long-term success and resilience."
+  },
+  {
+    "id": "all-inclusive",
+    "title": "All Inclusive",
+    "description": "Empowering communities to leverage their commonalities for comparative advantage, rather than focusing on their differences, towards a peaceful society."
+  }
+]

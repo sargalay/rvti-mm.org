@@ -1,0 +1,83 @@
+[
+  {
+    "id": "youth-talks-government-coordination",
+    "title": "Opportunity Talks with Youth & Coordination with Government Line Agencies and Key Stakeholders",
+    "description": [
+      "A platform for discussing career paths, education, skills, and future prospects with young people.",
+      "Workshops, mentorship sessions or panel discussions aimed at empowering youth by exploring opportunities in education, resource governance and public health.",
+      "Sustainable diversified livelihood and community empowerment."
+    ],
+    "images": [
+      "/images/activities/youth-talks-government-coordination-1.webp",
+      "/images/activities/youth-talks-government-coordination-2.webp",
+      "/images/activities/youth-talks-government-coordination-3.webp",
+      "/images/activities/youth-talks-government-coordination-4.webp",
+      "/images/activities/youth-talks-government-coordination-5.webp",
+      "/images/activities/youth-talks-government-coordination-6.webp"
+    ]
+  },
+  {
+    "id": "youth-talks-communities",
+    "title": "Opportunity Talks with Youth & Working with the Communities",
+    "description": [
+      "A platform for discussing career paths, education, skills, and future prospects with young people.",
+      "Workshops, mentorship sessions or panel discussions aimed at empowering youth by exploring opportunities in education, resource governance and public health.",
+      "Sustainable diversified livelihood and community empowerment."
+    ],
+    "images": [
+      "/images/activities/youth-talks-communities-1.webp",
+      "/images/activities/youth-talks-communities-2.webp",
+      "/images/activities/youth-talks-communities-3.webp",
+      "/images/activities/youth-talks-communities-4.webp",
+      "/images/activities/youth-talks-communities-5.webp",
+      "/images/activities/youth-talks-communities-6.webp",
+      "/images/activities/youth-talks-communities-7.webp",
+      "/images/activities/youth-talks-communities-8.webp",
+      "/images/activities/youth-talks-communities-9.webp",
+      "/images/activities/youth-talks-communities-10.webp",
+      "/images/activities/youth-talks-communities-11.webp",
+      "/images/activities/youth-talks-communities-12.webp",
+      "/images/activities/youth-talks-communities-13.webp"
+    ]
+  },
+  {
+    "id": "supporting-community-children",
+    "title": "Supporting Community Children",
+    "description": [
+      "Supporting community children in Northern Rakhine State is vital to nurturing their growth, development, and future success, creating a positive and inclusive environment where every child can thrive and achieve their full potential."
+    ],
+    "images": [
+      "/images/activities/supporting-community-children-1.webp",
+      "/images/activities/supporting-community-children-2.webp",
+      "/images/activities/supporting-community-children-3.webp"
+    ]
+  },
+  {
+    "id": "iscd-sweden",
+    "title": "ISCD (Integrated Sustainable Coastal Resource Management)",
+    "description": [
+      "Organized by SIDA and Gothenburg University Global Studies, Sweden."
+    ],
+    "images": [
+      "/images/activities/iscd-sweden-1.webp",
+      "/images/activities/iscd-sweden-2.webp"
+    ]
+  },
+  {
+    "id": "community-fisheries-cambodia",
+    "title": "Community Fisheries Cambodia",
+    "description": [],
+    "images": [
+      "/images/activities/community-fisheries-cambodia-1.webp"
+    ]
+  },
+  {
+    "id": "community-outreach-mobilization",
+    "title": "Community Outreach Mobilization",
+    "description": [],
+    "images": [
+      "/images/activities/community-outreach-mobilization-1.webp",
+      "/images/activities/community-outreach-mobilization-2.webp"
+    ]
+  }
+]

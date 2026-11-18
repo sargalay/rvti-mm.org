@@ -1,0 +1,58 @@
+{
+  "focusAreas": [
+    {
+      "id": "education",
+      "title": "Education",
+      "image": "/images/activities/youth-talks-government-coordination-1.webp",
+      "items": [
+        "Provide free access to learning English and other essential disciplines.",
+        "Offer learning assistance and resources to schools and institutions in rural areas, particularly in Rakhine State.",
+        "Develop and distribute educational materials and tools to enhance learning experiences.",
+        "Promote exchange learning among different schools and institutions across the country."
+      ]
+    },
+    {
+      "id": "healthcare",
+      "title": "Healthcare",
+      "image": "/images/activities/community-outreach-mobilization-1.webp",
+      "items": [
+        "Implement healthcare programs aimed at improving the health and well-being of communities.",
+        "Conduct health education and awareness campaigns to promote healthy living practices.",
+        "Facilitate access to essential healthcare services and resources.",
+        "Raise awareness on hygiene and better public sanitation systems."
+      ]
+    },
+    {
+      "id": "resource-governance-livelihood",
+      "title": "Resource Governance and Livelihood",
+      "image": "/images/activities/youth-talks-communities-1.webp",
+      "items": [
+        "Promote sustainable resource management practices in coastal states and regions.",
+        "Develop livelihood programs that support economic development and self-sufficiency.",
+        "Collaborate with local communities to ensure equitable distribution of resources and opportunities."
+      ]
+    }
+  ],
+  "initiatives": [
+    {
+      "id": "visionary-leadership-programme",
+      "title": "Renaissance Visionary Leadership Programme",
+      "description": "Training programs for emerging leaders and capacity building for career and professional development."
+    },
+    {
+      "id": "community-management",
+      "title": "Community Management",
+      "description": "Spaces for collaborative problem-solving, innovation and shared resource governance."
+    },
+    {
+      "id": "sustainability-projects",
+      "title": "Sustainability Projects",
+      "description": "Initiatives focused on environmental and economic sustainability through diversified livelihood programmes."
+    },
+    {
+      "id": "community-health-hygiene",
+      "title": "Community Health and Hygiene Programme",
+      "description": "Empowers communities through awareness raising and provides the infrastructure needed to improve health outcomes and promote hygiene practices."
+    }
+  ]
+}

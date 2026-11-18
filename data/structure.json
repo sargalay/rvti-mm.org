@@ -1,0 +1,60 @@
+{
+  "organogram": {
+    "id": "board-of-patrons",
+    "title": "Board of Patrons",
+    "note": "3 members",
+    "children": [
+      {
+        "id": "executive-director",
+        "title": "Executive Director",
+        "children": [
+          { "id": "budget-finance-team", "title": "Budget & Finance Team", "children": [] },
+          { "id": "operation-team", "title": "Operation Team", "children": [] },
+          { "id": "program-team", "title": "Program Team", "children": [] }
+        ]
+      }
+    ]
+  },
+  "positions": [
+    {
+      "id": "executive-director",
+      "title": "Executive Director",
+      "description": "Provides overall leadership and strategic direction, and oversees the organization's operations."
+    },
+    {
+      "id": "program-manager",
+      "title": "Program Manager",
+      "description": "Manages specific programs related to education, public health, and resource governance."
+    },
+    {
+      "id": "finance-officer",
+      "title": "Finance Officer",
+      "description": "Oversees financial management, budgeting, and reporting."
+    },
+    {
+      "id": "community-outreach-coordinator",
+      "title": "Community Outreach Coordinator",
+      "description": "Engages with community members and stakeholders to ensure programs meet local needs."
+    },
+    {
+      "id": "project-officer",
+      "title": "Project Officer",
+      "description": "Implements and monitors project activities in education, public health, and resource governance."
+    },
+    {
+      "id": "meal-officer",
+      "title": "MEAL Officer",
+      "description": "Ensures monitoring, evaluation, accountability and learning across all projects."
+    },
+    {
+      "id": "administrative-assistant",
+      "title": "Administrative Assistant",
+      "description": "Provides administrative support and office management."
+    },
+    {
+      "id": "non-incentive-volunteers",
+      "title": "Non-incentive Volunteers",
+      "description": "Perform their duties with dedication, commitment, and professionalism, acting with integrity and respect and fostering a collaborative and supportive environment for all team members."
+    }
+  ]
+}

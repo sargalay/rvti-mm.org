@@ -1,0 +1,23 @@
+{
+  "name": "Renaissance Visionary Thriving Initiative",
+  "shortName": "RVTI",
+  "nameMyanmar": "ဥာဏ်သစ်လောင်းချိန်အမြင်သစ်ဖွံ့ဖြိုးတိုးတက်လေးအဖွဲ့",
+  "logo": "/images/logo.png",
+  "heroImage": "/images/activities/supporting-community-children-2.webp",
+  "formerName": "Renaissance Edu-Care (REC)",
+  "tagline": "Inspiring Innovation, Fostering Growth, Peaceful Harmonious Society",
+  "founded": {
+    "year": 2009,
+    "place": "Sittway, Rakhine State"
+  },
+  "registeredYear": 2023,
+  "type": "Local non-profit organization",
+  "sectors": [
+    "Education",
+    "Resource Governance",
+    "Health Care"
+  ],
+  "email": "Renaissancers4you@gmail.com",
+  "vision": "To create a thriving, inclusive society where access to quality education, public health, and sustainable resources empowers every community to achieve their full potential towards a peaceful harmonious society.",
+  "mission": "Renaissance Visionary Thriving Initiative (RVTI) aims to uplift communities in coastal states and regions in Myanmar through comprehensive programs that enhance educational opportunities, improve public health, and promote sustainable resource governance. We strive to foster self-reliance, resilience, and prosperity among individuals and families."
+}

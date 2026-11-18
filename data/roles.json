@@ -1,0 +1,297 @@
+[
+  {
+    "id": "board-of-patrons",
+    "title": "Board of Patrons",
+    "summary": "Board members are prominent well-wishers who provide their consultancy on a voluntary basis. Their acts are conducted of their own accord, but shall be aligned with the organizational policy statement.",
+    "duties": [
+      {
+        "area": "Strategic Guidance",
+        "items": ["Provide strategic direction and oversight to ensure that RVTI's goals and objectives align with its mission and vision."]
+      },
+      {
+        "area": "Resource Mobilization",
+        "items": ["Assist in securing financial resources, grants, and donations to support RVTI's programs and initiatives."]
+      },
+      {
+        "area": "Expertise and Advice",
+        "items": ["Offer expertise and advice on various aspects of RVTI's operations, including program development, partnerships, and community engagement."]
+      },
+      {
+        "area": "Governance",
+        "items": ["Ensure good governance practices are followed, including transparency, accountability, and ethical conduct."]
+      },
+      {
+        "area": "Mentorship",
+        "items": ["Provide mentorship and support to RVTI's leadership team and staff, helping them to develop their skills and capabilities."]
+      }
+    ],
+    "criteria": [
+      "At least 3 members.",
+      "RVTI is a non-profit and a sister organization of Renaissance Language Campus (RLC).",
+      "A collection of individuals who bring unique knowledge and skills for effectively governing the organization.",
+      "Highly respected within and outside of RLC, well-experienced, knowledgeable and farsighted.",
+      "Committed and inspired to work on behalf of RVTI.",
+      "Value team spirit and mutual respect.",
+      "Have an altruistic sense."
+    ],
+    "responsibilities": [
+      "Give guidelines to make effective and efficient use of resources.",
+      "Give guidelines to achieve objectives and fulfill commitments to stakeholders.",
+      "Give guidelines to members to become more accountable to donors and other stakeholders.",
+      "Gain the respect and confidence of funding agencies, partners and beneficiaries.",
+      "Give guidelines to prepare for long-term financial sustainability.",
+      "Ensure projects are executed in a timely and consistent manner."
+    ]
+  },
+  {
+    "id": "executive-director",
+    "title": "Executive Director",
+    "summary": "The role of the Executive Director is pivotal to the organization's success and overall functioning.",
+    "duties": [
+      {
+        "area": "Leadership and Vision",
+        "items": [
+          "Provide strategic leadership and direction to ensure that RVTI's mission and vision are effectively implemented.",
+          "Develop and execute long-term and short-term strategic plans to achieve the organization's goals.",
+          "Supervise operational management.",
+          "Oversee day-to-day operations, ensuring that programs and activities run smoothly and efficiently.",
+          "Manage staff, volunteers, and contractors, fostering a collaborative and productive work environment."
+        ]
+      },
+      {
+        "area": "Financial Oversight",
+        "items": [
+          "Develop and manage the organization's budget, ensuring financial stability, sustainability and value for money.",
+          "Oversee fundraising efforts, grant applications, and donor relations to secure necessary resources."
+        ]
+      },
+      {
+        "area": "Program Development",
+        "items": [
+          "Design, implement, and evaluate programs and initiatives that align with RVTI's objectives.",
+          "Ensure that programs meet the needs of the community and have a measurable impact."
+        ]
+      },
+      {
+        "area": "Stakeholder Engagement",
+        "items": [
+          "Build and maintain strong relationships with key stakeholders, including community members, partner organizations, donors, and government agencies.",
+          "Represent RVTI at public events, meetings, and conferences to promote the organization's work and build its reputation."
+        ]
+      },
+      {
+        "area": "Governance and Compliance",
+        "items": [
+          "Work closely with the Board of Patrons to ensure good governance practices are followed.",
+          "Ensure that the organization complies with all legal, regulatory, and ethical standards."
+        ]
+      },
+      {
+        "area": "Communication",
+        "items": [
+          "Serve as the primary spokesperson for RVTI, effectively communicating its mission, vision, and programs to diverse audiences.",
+          "Oversee the development and execution of communication strategies, including marketing, public relations, and social media."
+        ]
+      },
+      {
+        "area": "Monitoring and Evaluation",
+        "items": [
+          "Implement systems to monitor and evaluate the effectiveness and impact of RVTI's programs and initiatives.",
+          "Use data and feedback to continuously improve the organization's operations and expected outcomes."
+        ]
+      },
+      {
+        "area": "Innovation and Adaptation",
+        "items": [
+          "Foster a culture of innovation, encouraging staff and volunteers to explore new ideas and approaches.",
+          "Adapt to changing circumstances and emerging trends to ensure RVTI remains relevant and effective."
+        ]
+      }
+    ],
+    "criteria": [],
+    "responsibilities": [
+      "Develop strategies for fundraising mechanisms with guidelines from the Board of Patrons.",
+      "Keep information on available sources of funding and donors up to date.",
+      "Develop appropriate proposals with guidelines from the Board of Patrons.",
+      "Set up meetings with donor agencies and organizations.",
+      "Design appropriate fundraising activities with guidelines from the Board of Patrons.",
+      "Maintain good relationships with donor agencies and organizations.",
+      "Arrange occasional meetings within RVTI on fundraising-related activities.",
+      "Develop project reports in line with donors' criteria."
+    ]
+  },
+  {
+    "id": "budget-finance-team",
+    "title": "Budget and Finance Team",
+    "summary": "",
+    "duties": [],
+    "criteria": [
+      "Committed and inspired to work for RVTI.",
+      "Value team spirit and mutual respect.",
+      "Have an altruistic sense.",
+      "Have a financial studies background or a related degree.",
+      "At least one member must be female.",
+      "Free from monetary crises and related cases, with a clear record in money handling.",
+      "Able to stay in the assigned location.",
+      "Willing to actively participate in the budgeting process, financial planning meetings and related activities."
+    ],
+    "responsibilities": [
+      "Make effective and efficient use of resources.",
+      "Achieve objectives and fulfill commitments to stakeholders.",
+      "Become more accountable to donors and other stakeholders.",
+      "Gain the respect and confidence of funding agencies, partners and beneficiaries.",
+      "Prepare for long-term financial sustainability."
+    ]
+  },
+  {
+    "id": "operation-manager",
+    "title": "Operation Manager",
+    "summary": "",
+    "duties": [],
+    "criteria": [
+      "Senior member of Renaissance Language Campus.",
+      "Committed and inspired to work for RVTI.",
+      "Happy to travel occasionally.",
+      "Values team spirit and mutual respect.",
+      "Has an altruistic sense."
+    ],
+    "responsibilities": [
+      "Develop strategies the team will use to reach its goals.",
+      "Provide any training that team members need.",
+      "Communicate clear instructions to team members.",
+      "Listen to team members' feedback.",
+      "Monitor team members' participation to ensure the training and resources provided are being put to use.",
+      "Manage the flow of monthly operations.",
+      "Create reports to update the organization on the team's progress.",
+      "Distribute reports to appropriate personnel."
+    ]
+  },
+  {
+    "id": "project-manager",
+    "title": "Project Manager",
+    "summary": "",
+    "duties": [],
+    "criteria": [
+      "Senior member of Renaissance Language Campus.",
+      "Committed and inspired to work for RVTI.",
+      "Capable of developing action plans and monitoring project implementation.",
+      "Happy to travel occasionally.",
+      "Values team spirit and mutual respect.",
+      "Has an altruistic sense.",
+      "Has leadership skills."
+    ],
+    "responsibilities": [
+      "Develop a strategy the team will use to reach its goals.",
+      "Provide any training that team members need.",
+      "Communicate clear instructions to team members.",
+      "Listen to team members' feedback.",
+      "Monitor team members' participation to ensure the training and resources provided are being put to use.",
+      "Manage the flow of monthly operations.",
+      "Create reports to update the organization on the team's progress.",
+      "Distribute reports to appropriate personnel."
+    ]
+  },
+  {
+    "id": "community-outreach-coordinator",
+    "title": "Community Outreach Coordinator",
+    "summary": "",
+    "duties": [],
+    "criteria": [
+      "Senior member of Renaissance ELTA.",
+      "Committed and inspired to work for RVTI.",
+      "Values team spirit and mutual respect.",
+      "Has an altruistic sense.",
+      "Able to work in a partnership spirit.",
+      "Able to work with diverse communities.",
+      "Able to mobilize communities.",
+      "Able to develop intervention designs relevant to the communities' needs."
+    ],
+    "responsibilities": [
+      "Develop strategies the team will use to reach its goals.",
+      "Provide any training that team members need.",
+      "Communicate clear instructions to team members.",
+      "Listen to team members' feedback.",
+      "Monitor team members' participation to ensure the training and resources provided are being put to use.",
+      "Manage the flow of monthly operations.",
+      "Create reports to update the organization on the team's progress.",
+      "Distribute reports to appropriate personnel."
+    ]
+  },
+  {
+    "id": "monitoring-evaluation",
+    "title": "Monitoring & Evaluation Officer",
+    "summary": "The M&E Officer is crucial for ensuring the effectiveness, efficiency, and impact of RVTI's programs and initiatives, and plays a vital role in ensuring they are effective, impactful, and continuously improving.",
+    "duties": [
+      {
+        "area": "Monitoring",
+        "items": [
+          "Develop and implement monitoring plans to systematically collect data on program activities and outputs.",
+          "Track progress towards the achievement of program objectives and goals.",
+          "Regularly update and maintain program databases and records."
+        ]
+      },
+      {
+        "area": "Evaluation",
+        "items": [
+          "Design and conduct evaluations to assess the outcomes and impacts of RVTI's programs and initiatives.",
+          "Develop evaluation frameworks and methodologies, including surveys, interviews, and focus groups.",
+          "Analyze evaluation data and prepare comprehensive evaluation reports."
+        ]
+      },
+      {
+        "area": "Data Management",
+        "items": [
+          "Collect, manage, and analyze data to provide insights into program performance.",
+          "Ensure data quality and integrity by implementing rigorous data validation processes.",
+          "Use data analysis tools and software to generate reports and visualizations."
+        ]
+      },
+      {
+        "area": "Reporting",
+        "items": [
+          "Prepare and submit regular monitoring and evaluation reports to the executive leadership and Board of Patrons.",
+          "Communicate key findings and recommendations to stakeholders to inform decision-making and program improvements.",
+          "Ensure compliance with donor reporting requirements and timelines."
+        ]
+      },
+      {
+        "area": "Capacity Building",
+        "items": [
+          "Provide training and support to program staff and partners on monitoring and evaluation best practices.",
+          "Build the capacity of staff to use M&E tools and techniques effectively.",
+          "Promote a culture of learning and continuous improvement within the organization."
+        ]
+      },
+      {
+        "area": "Collaboration",
+        "items": [
+          "Work closely with program managers and other team members to integrate M&E activities into program planning and implementation.",
+          "Foster strong relationships with external stakeholders, including donors, partners, and beneficiaries.",
+          "Collaborate with other organizations to share best practices and learn from their M&E experiences."
+        ]
+      },
+      {
+        "area": "Learning and Adaptation",
+        "items": [
+          "Identify lessons learned and best practices from program implementation and use them to inform future program design.",
+          "Facilitate learning sessions and workshops to disseminate key findings and promote knowledge sharing.",
+          "Adapt M&E approaches and methodologies in response to changing program needs and contexts."
+        ]
+      },
+      {
+        "area": "Compliance and Standards",
+        "items": [
+          "Ensure that all M&E activities adhere to ethical standards and best practices.",
+          "Maintain confidentiality and data security in accordance with organizational policies and regulations."
+        ]
+      }
+    ],
+    "criteria": [
+      "Senior member of Renaissance Language Campus.",
+      "Committed and inspired to work for RVTI.",
+      "Values team spirit and mutual respect.",
+      "Has an altruistic sense."
+    ],
+    "responsibilities": []
+  }
+]

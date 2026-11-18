@@ -1,0 +1,47 @@
+[
+  {
+    "id": "innovation",
+    "title": "Foster Innovation",
+    "description": "Encourage and support innovative ideas and projects that align with the initiative's vision and mission."
+  },
+  {
+    "id": "community-empowerment",
+    "title": "Community Empowerment",
+    "description": "Actively engage the community in the initiative's activities and decision-making processes to ensure that it meets the needs and aspirations of the people it serves."
+  },
+  {
+    "id": "sustainable-development",
+    "title": "Sustainable Development",
+    "description": "Promote sustainable practices and projects that contribute to the long-term well-being of the community and the environment."
+  },
+  {
+    "id": "education-training",
+    "title": "Education and Training",
+    "description": "Provide educational and training opportunities to empower individuals with the skills and knowledge they need to thrive in a rapidly changing world."
+  },
+  {
+    "id": "partnerships",
+    "title": "Partnerships and Collaboration",
+    "description": "Build strong partnerships with local, national, and international organizations to leverage resources and local expertise."
+  },
+  {
+    "id": "cultural-enrichment",
+    "title": "Cultural Enrichment",
+    "description": "Support and promote cultural activities and programs that celebrate and preserve the community's heritage and diversity."
+  },
+  {
+    "id": "economic-growth",
+    "title": "Economic Growth",
+    "description": "Stimulate economic development by supporting local businesses and entrepreneurs, attracting new investments to the area, and improving access to markets."
+  },
+  {
+    "id": "health-wellbeing",
+    "title": "Health and Well-being",
+    "description": "Promote initiatives that enhance the physical, mental, and social well-being of community members."
+  },
+  {
+    "id": "resource-governance",
+    "title": "Resource Governance",
+    "description": "Empower communities to manage their own resources through existing customary practices and conflict resolution by strengthening formal and informal institutions in the communities."
+  }
+]

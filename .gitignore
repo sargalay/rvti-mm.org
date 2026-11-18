@@ -1,0 +1,4 @@
+.DS_Store
+# original source documents (not published)
+*.pdf
+IMG_*.PNG
