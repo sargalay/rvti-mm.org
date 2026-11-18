@@ -403,7 +403,7 @@ body:has(dialog[open]) { overflow: hidden; }
 }
 .site-footer a { color: #fff; }
 .footer-grid { display: grid; gap: var(--space-l); grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); margin-bottom: var(--space-l); }
-.footer-brand img { width: 64px; background: #fff; border-radius: var(--radius); padding: 4px; margin-bottom: 0.75rem; }
+.footer-brand img { width: 64px; margin-bottom: 0.75rem; }
 .footer-brand strong { display: block; color: #fff; font-family: var(--font-display); font-size: 1.1rem; }
 .site-footer h2 { font-size: var(--step-0); font-family: var(--font-body); font-weight: 700; color: #fff; margin-bottom: 0.75rem; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
